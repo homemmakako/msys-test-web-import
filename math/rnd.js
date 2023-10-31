@@ -1,3 +1,3 @@
 const rnd = () => Math.random();
 
-export { rnd }
+export { rnd };
