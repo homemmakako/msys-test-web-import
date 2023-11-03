@@ -1,3 +1,5 @@
-const rnd = () => Math.random();
+function rnd () {
+  return Math.random();
+}
 
 export { rnd };
