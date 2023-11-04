@@ -1,7 +1,5 @@
-import { rnd } from "../math/rnd.js";
-
-const defa = "default string " + rnd().toString();
-const parti = "partial string " + rnd().toString();
+const defa = "default string";
+const parti = "partial string";
 
 export { parti };
 
