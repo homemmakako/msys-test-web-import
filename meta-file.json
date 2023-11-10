@@ -1,0 +1,4 @@
+{
+  "name": "msys-test-web-import",
+  "entrypoint": "./index.js"
+}
