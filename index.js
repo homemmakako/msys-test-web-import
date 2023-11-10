@@ -7,4 +7,12 @@ function hello (name) {
   console.log("Partial import", parti);
 }
 
+function boot () {
+  console.log("Booting addon");
+}
+
+function configure () {
+  console.log("Configuring addon");
+}
+
 export { hello };
