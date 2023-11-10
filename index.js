@@ -15,4 +15,4 @@ function configure () {
   console.log("Configuring addon");
 }
 
-export { hello };
+export { hello, boot, configure };
