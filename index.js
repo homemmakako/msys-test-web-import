@@ -14,6 +14,7 @@ function boot () {
 function configure (input) {
   console.log("Configuring addon");
   console.log("Aqui", input);
+  input.done();
 }
 
 export { hello, boot, configure };
