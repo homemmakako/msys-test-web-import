@@ -11,8 +11,9 @@ function boot () {
   console.log("Booting addon");
 }
 
-function configure () {
+function configure (b) {
   console.log("Configuring addon");
+  b.done();
 }
 
 export { hello, boot, configure };
