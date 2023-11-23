@@ -1,7 +1,7 @@
 import { rnd } from "../math/rnd.js";
-import { inspect } from "util";
+import { inspect as check } from "util";
 
-const defa = inspect({
+const defa = check({
   ["default string is an object"]: rnd().toString(),
 }, false, null, true);
 const parti = "partial string " + rnd().toString();
